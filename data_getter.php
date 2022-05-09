@@ -2,7 +2,7 @@
 function update(){
     /*Download XML ZIP + UNZIP*/
     $url = "https://donnees.roulez-eco.fr/opendata/instantane";
-    $bdd = new PDO('mysql:host=db5006933829.hosting-data.io;dbname=dbs5724752;', 'dbu1579079', '#Axelou2002');
+    $bdd = new PDO('mysql:host=XXXXXXXXXX;dbname=XXXXX;', 'XXXXX', 'XXXXX');
     $zipFile = "data.zip";
     $zipRessource = fopen($zipFile, "w");
     $ch = curl_init();
