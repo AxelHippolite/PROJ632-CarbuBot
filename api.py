@@ -9,7 +9,7 @@ def request(update, context):
     return all gas stations (with their characteristics) of the department for a given fuel
     """
     base_url = "http://s904857832.onlinehome.fr/5c34a5f29c1b6cd7988de67a147b601a.php/"
-    api_key = "a692a8fc4c7260188bbb5422f53a34af"
+    api_key = "XXXXXXXXXX"
     cp = context.args[0]
     ca = context.args[1]
     cp_r = cp[:2]
