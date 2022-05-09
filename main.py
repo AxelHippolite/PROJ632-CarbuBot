@@ -45,7 +45,7 @@ def find(update, context):
     update.message.reply_text(string)
 
 if __name__ == "__main__":
-    updater = Updater("5121636211:AAGmncpq3_fZ-khdk0AB0q8EpCUN3DWo128", use_context=True) #bot functionality manager
+    updater = Updater("XXXXXXXXXXXXXXXXXXXX", use_context=True) #bot functionality manager
     updater.dispatcher.add_handler(CommandHandler('start', start))
     updater.dispatcher.add_handler(CommandHandler('find', find, pass_args=True))
     updater.start_polling()
