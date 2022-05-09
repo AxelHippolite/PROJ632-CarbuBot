@@ -1,7 +1,7 @@
 <?php
 /*Connection to DB*/
 header('Content-Type: application/json');
-$bdd = new PDO('mysql:host=db5006933829.hosting-data.io;dbname=dbs5724752;', 'dbu1579079', '#Axelou2002');
+$bdd = new PDO('mysql:host=XXXXXXXXXX;dbname=XXXXX;', 'XXXXX', 'XXXXX');
 
 /*Get the Parameters via the URL*/
 $api_key = $_GET["key"];
