@@ -9,7 +9,8 @@ In order to use the code correctly, we invite you to follow the few steps below 
 1. Run the program.
 2. Download Telegram.
 3. Run Telegram.
-4. Follow GIF instructions.
+4. Add @CarbuBot on Telegram.
+5. Follow GIF instructions.
 
 The GIF below illustrates the different steps detailed above :
 
